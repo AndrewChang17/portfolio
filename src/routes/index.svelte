@@ -49,17 +49,17 @@
 <section class='flex flex-col gap-4 items-center py-8 bg-gray-100'>
     <h2 class='my-8 text-3xl font-semibold'>What I do.</h2>
     <div class='container grid grid-cols-1 gap-8 max-w-screen-lg md:grid-cols-3' data-aos='fade-up' data-aos-duration="750">
-        <CaptionCard src={'static/coding.png'}>
+        <CaptionCard src={'/coding.png'}>
             <span slot='title'>Web Development</span>
             <span slot='content'>I build</span>
         </CaptionCard>
 
-        <CaptionCard src={'static/devices.png'}>
+        <CaptionCard src={'/devices.png'}>
             <span slot='title'>UI / UX</span>
             <span slot='content'>I improve</span>
         </CaptionCard>
 
-        <CaptionCard src={"static/graphics.png"}>
+        <CaptionCard src={"/graphics.png"}>
             <span slot='title'>Graphics</span>
             <span slot='content'>I design</span>
         </CaptionCard>
